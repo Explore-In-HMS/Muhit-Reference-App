@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">muhit - Closest Points of Interest</string>
+    <string name="app_slogan">What are you looking for nearby?</string>
+    <string name="clear_all_markers">Clean</string>
+    <string name="select_one">Make a choose</string>
+    <string name="call">Make a Phone Call</string>
+    <string name="poi_not_found">No Results Found!</string>
+    <string name="try_to_find_location">We are trying to obtain your location,\nplease wait a second.</string>
+    <string name="need_to_location_service">Uygulamayı kullanabilmeniz için konum servisini aktif etmeniz gerekmektedir.</string>
+    <string name="need_to_location_granted">Lütfen uygulamanın konum bilginize erişmesine izin verin</string>
+    <string name="go_to_setting">Ayarlara Git</string>
+    <string name="close_to_app">Uygulamayı Kapat</string>
+
+
+    <string name="hospital">Hospital</string>
+    <string name="movie_theater">Movie Theater</string>
+    <string name="cafe">Cafe</string>
+    <string name="super_market">Super Market</string>
+    <string name="atm">ATM</string>
+    <string name="bank">Bank</string>
+    <string name="park">Park</string>
+    <string name="parking">Parking</string>
+    <string name="bakery">Bakery</string>
+    <string name="school">School</string>
+    <string name="food">Restaurant</string>
+    <string name="police_station">Police Station</string>
+    <string name="mosque">Mosque</string>
+    <string name="church">Church</string>
+    <string name="gym">GYM</string>
+    <string name="gas_station">Gas Station</string>
+    <string name="beauty_salon">Beauty Centre</string>
+    <string name="bus_station">Bus Station</string>
+</resources>

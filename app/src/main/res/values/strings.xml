@@ -1,0 +1,34 @@
+<resources>
+    <string name="apikey" translatable="false">CgB6e3x9nbBtrcyzfNR3qzIOT7OBBv3Ax01rcmeZctvpKKsGj0oLlx3lpLfDbpHA3q0DCBsQ8krgl4SS6N24pvkJ</string>
+
+    <string name="app_name">muhit - Çevremde Ne Var?</string>
+    <string name="app_slogan">Yakınlarda neyi arıyorsun?</string>
+    <string name="clear_all_markers">Temizle</string>
+    <string name="select_one">Bir Seçim Yapın</string>
+    <string name="call">Telefon Et</string>
+    <string name="poi_not_found">Uygun Sonuç Bulunamadı!</string>
+    <string name="try_to_find_location">Konum verisi alınıyor,\nlütfen biraz bekleyiniz.</string>
+    <string name="need_to_location_service">Uygulamayı kullanabilmeniz için konum servisini aktif etmeniz gerekmektedir.</string>
+    <string name="need_to_location_granted">Please allow the app to access your location</string>
+    <string name="go_to_setting">Go to Settings</string>
+    <string name="close_to_app">Exit</string>
+
+    <string name="hospital">Hastane</string>
+    <string name="movie_theater">Sinema</string>
+    <string name="cafe">Kafe</string>
+    <string name="super_market">Market</string>
+    <string name="atm">ATM</string>
+    <string name="bank">Banka</string>
+    <string name="park">Park</string>
+    <string name="parking">Oto Park</string>
+    <string name="bakery">Fırın</string>
+    <string name="school">Okul</string>
+    <string name="food">Restorant</string>
+    <string name="police_station">Polis Karakolu</string>
+    <string name="mosque">Cami</string>
+    <string name="church">Kilise</string>
+    <string name="gym">Spor Salonu</string>
+    <string name="gas_station">Benzin İstasyonu</string>
+    <string name="beauty_salon">Güzellik Salonu</string>
+    <string name="bus_station">Otobüs Durağı</string>
+</resources>

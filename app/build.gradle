@@ -1,0 +1,42 @@
+plugins {
+    id 'com.android.application'
+    id 'com.huawei.agconnect'
+}
+apply from: "$project.rootDir/sonarqube.gradle"
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.hms.referenceapp.muhit"
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1"
+        resConfigs "tr", "en"
+
+        //testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+
+    // HMS Location Kit
+    implementation 'com.huawei.hms:location:5.1.0.300'
+
+    // HMS Map Kit
+    implementation 'com.huawei.hms:maps:5.2.0.301'
+
+    // HMS Site Kit
+    implementation 'com.huawei.hms:site:5.1.0.300'
+}
